@@ -1,0 +1,68 @@
+[
+  {
+    "demandId" : 7136040079,
+    "demandConsumerId" : "678807150050",
+    "demandConsumerType" : "CUSTOMER_SHIPMENT",
+    "destinationLocation" : "pkREBINLG01",
+    "needByDate" : 1369080000000,
+    "priority" : 1,
+    "status" : "COLLATING",
+    "processPath" : "PPMultiCustomBox",
+    "subProcessPath" : null,
+    "categoryName" : "Multis",
+    "pickBatchId" : null,
+    "parentBatchId" : null,
+    "condition" : null,
+    "shipmentShipOption" : "sss-us",
+    "shipMethod" : "USPS_FIRST_CLASS_PARCEL",
+    "creationDate" : 1368614069000,
+    "recordVersionNumber" : 0,
+    "pickDemandItems" : [ {
+      "demandId" : 7136040079,
+      "demandSku" : "B005V5F9R8",
+      "quantity" : 1,
+      "quantityPicked" : null,
+      "recordVersionNumber" : 1
+    },
+      {
+      "demandId" : 7136040079,
+      "demandSku" : "B005V4XOG2",
+      "quantity" : 1,
+      "quantityPicked" : null,
+      "recordVersionNumber" : 1
+    }, {
+      "demandId" : 7136040079,
+      "demandSku" : "B005V60UKS",
+      "quantity" : 1,
+      "quantityPicked" : null,
+      "recordVersionNumber" : 1
+    } ]
+  },
+  {
+    "demandId" : 7135542079,
+    "demandConsumerId" : "676481538050",
+    "demandConsumerType" : "CUSTOMER_SHIPMENT",
+    "destinationLocation" : "pkREBINLG01",
+    "needByDate" : 1368828000000,
+    "priority" : 1,
+    "status" : "COLLATING",
+    "processPath" : "PPMultiCustomBox",
+    "subProcessPath" : null,
+    "categoryName" : "SingleCustomBox",
+    "pickBatchId" : null,
+    "parentBatchId" : null,
+    "condition" : null,
+    "shipmentShipOption" : "sss-us",
+    "shipMethod" : "FEDEX_3DAY",
+    "creationDate" : 1368468693000,
+    "recordVersionNumber" : 0,
+    "pickDemandItems" : [ {
+      "demandId" : 7135542079,
+      "demandSku" : "B003DKJQZE",
+      "quantity" : 1,
+      "quantityPicked" : null,
+      "recordVersionNumber" : 1
+    } ]
+  }
+
+]

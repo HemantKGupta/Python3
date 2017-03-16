@@ -1,0 +1,63 @@
+{
+  "transferSummary": {
+    "amazonShipmentRefId": "ONT8ONT2x1484364985x726",
+    "shipmentCarrierId": "n/a",
+    "totalDeliveryItemQuantity": 1,
+    "sourceWarehouseId": "ONT8",
+    "destinationWarehouseId": "ONT2",
+    "transferType": "TRANSFER",
+    "trailerId": "FOUND_IN_DIFFERENT_FC",
+    "departureDateTime": "2017-01-13T19:36:25.000Z",
+    "expectedArrivalDateTime": "2017-01-13T19:36:25.000Z",
+    "notes": [
+      null
+    ],
+    "shipmentDetailsUrl": "http://ONT2-portal.amazon.com/gp/transshipment/Contents.html?amazonShipmentRefID\u003dONT8ONT2x1484364985x726"
+  },
+  "transferDeliveryItems": [
+    {
+      "transferRequestId": "ITS-ONT8-ONT2-e8-e3acb31f1b89",
+      "fcSku": "ZZWRQ72XRL",
+      "inventoryOwnerGroupId": 1,
+      "inventoryConditionCode": "SELLABLE",
+      "fifoCost": 7.88,
+      "baseCurrencyCode": "USD",
+      "fifoSequence": 237044377642,
+      "fiscalOwnerId": 239869,
+      "costInfoSource": "MANIFEST",
+      "quantity": 1,
+      "externalReportingId": "B004VLV91S",
+      "orderType": 0,
+      "distributorShipmentItemId": 0,
+      "distributorReceivedDateTime": "2017-01-13T01:37:43.000Z",
+      "finalDestinationWarehouseId": "ONT2",
+      "needToReceiveByDateTime": "2017-01-17T18:00:00.000Z",
+      "glProductGroup": 325
+    }
+  ],
+  "topLevelContainer": {
+    "containerType": "TRANSFER_SHIPMENT",
+    "finalDestinationWarehouseId": "ONT2",
+    "scannableId": "pk-x-0004hkq56",
+    "childContainers": [
+      {
+        "containerType": "CASE",
+        "finalDestinationWarehouseId": "ONT2",
+        "scannableId": "csXP22jDzTB",
+        "childContainers": [
+
+        ],
+        "transferContainerItems": [
+          {
+            "fcSku": "ZZWRQ72XRL",
+            "inventoryConditionCode": "SELLABLE",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "transferContainerItems": [
+
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "topLevelContainer": {
+    "childContainers":[{
+                        "childContainers": [],
+                        "containerType": "TRANSFER_TOTE",
+                        "finalDestinationWarehouseId": "ABE2",
+                        "scannableId": "tsX014gh9vh",
+                        "transferContainerItems": [
+                            {
+                                "fcSku": "X001797T3F",
+                                "inventoryConditionCode": "SELLABLE",
+                                "quantity": 1
+                            },
+                            {
+                                "fcSku": "X00189ZQNT",
+                                "inventoryConditionCode": "SELLABLE",
+                                "quantity": 1
+                            },
+                            {
+                                "fcSku": "ZZXPB1I3C7",
+                                "inventoryConditionCode": "SELLABLE",
+                                "quantity": 1
+                            },
+                            {
+                                "fcSku": "ZZXZXHKUGL",
+                                "inventoryConditionCode": "SELLABLE",
+                                "quantity": 1
+                            },
+                            {
+                                "fcSku": "ZZY10SSK63",
+                                "inventoryConditionCode": "SELLABLE",
+                                "quantity": 2
+                            },
+                            {
+                                "fcSku": "X001AAGDBZ",
+                                "inventoryConditionCode": "SELLABLE",
+                                "quantity": 1
+                            }
+                        ]
+                    }],
+    "containerType": "TRANSFER_SHIPMENT",
+    "finalDestinationWarehouseId": "ABE2",
+    "scannableId": "ctBNSF-825804_2",
+    "transferContainerItems": []
+  },
+  "transferDeliveryItems":[{
+      "baseCurrencyCode": "USD",
+      "costInfoSource": "MANIFEST",
+      "distributorReceivedDateTime": "2016-12-08T01:51:55.000Z",
+      "distributorShipmentItemId": 0,
+      "externalReportingId": "B006J3EI7I",
+      "fcSku": "ZZXPB1I3C7",
+      "fifoCost": 8.64,
+      "fifoSequence": 323199985164,
+      "finalDestinationWarehouseId": "ABE2",
+      "fiscalOwnerId": 239873,
+      "glProductGroup": 468,
+      "inventoryConditionCode": "SELLABLE",
+      "inventoryCostItemIds": [
+        "amzn1.cost.v1.inventory.ici_id.20161210003546-92d5ba57-cf46-4079-986c-4e51e734d54e"
+      ],
+      "inventoryOwnerGroupId": 1,
+      "needToReceiveByDateTime": "2016-12-15T19:00:00.000Z",
+      "orderType": 0,
+      "quantity": 1,
+      "transferRequestId": "106-8676256-1651461:1481690422879:000002"
+}],
+  "transferSummary": {
+    "amazonShipmentRefId": "RIC2-ABE2-1481773758-246566844",
+    "departureDateTime": "2016-12-14T20:16:19.000Z",
+    "destinationWarehouseId": "ABE2",
+    "expectedArrivalDateTime": "2016-12-14T19:49:18.000Z",
+    "notes": [
+      null
+    ],
+    "shipmentCarrierId": "n/a",
+    "shipmentDetailsUrl": "http://ABE2-portal.amazon.com/gp/transshipment/Contents.html?amazonShipmentRefID=RIC2-ABE2-1481773758-246566844",
+    "sourceWarehouseId": "RIC2",
+    "totalDeliveryItemQuantity": 3506,
+    "trailerId": "113T8BN5D",
+    "transferType": "GENERIC"
+  }
+}
+
+
